@@ -39,7 +39,6 @@ NbrArges = len(sys.argv)
 if NbrArges == 3:
     RecognizerFunction()
 else:
-    blah = 'blah'
     print ('\n' +ScriptName+ ' <inputfile> <Language>')
     print ('\n  -> language list : en_US, fr_FR, ar_AE..\n')
     sys.exit()
