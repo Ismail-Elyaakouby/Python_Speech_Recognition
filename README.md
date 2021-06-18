@@ -1,7 +1,6 @@
 
 
-# sudo apt-get install python3-pyaudio
-#sudo apt install qjackctl
+# Install Modules
 pip3 install speechrecognition
 pip3 install pyaudio
 sudo apt-get install python3-pyaudio
@@ -9,11 +8,10 @@ sudo apt-get install python3-pyaudio
 # long
 pip3 install pydub
 sudo apt-get install ffmpeg
-# or sudo apt-get install avconv 
 
 
 
-# test
+# TEST IT
 # from audio file to text
 python3 Speech_recognition.py ./hello.wav en-US
 
